@@ -3584,6 +3584,11 @@ details-disclosure > details {
   display: block;
 }
 
+.hidden-new {
+  opacity: 0;
+  transition: all var(--duration-default) ease;
+}
+
 @keyframes indeterminateAnimation {
   0% {
     transform: translateX(-20%) scaleX(0);
